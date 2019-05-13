@@ -1,0 +1,7 @@
+version: 2.0
+jobs:
+  build:
+    docker:
+      - image: rob0ne/chatware:0.0.1
+    steps:
+      - run: chatware
