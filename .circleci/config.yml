@@ -5,6 +5,6 @@ jobs:
       - image: rob0ne/chatware:0.0.1
     steps:
       - run: 
-        name: Running Chatware service
-        command: chatware
-        background: true
+          name: Running Chatware service
+          command: chatware
+          background: true
